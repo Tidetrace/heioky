@@ -1,10 +1,10 @@
 package com.wistaria.base;
 
 /**
-  *  返回结果类
-  * @author hanyc
-  * @date 2019/8/14
-  */
+ *  返回结果类
+ * @author hanyc
+ * @date 2019/8/14
+ */
 public class Result {
 
     public static ApiResult success(Object object) {
