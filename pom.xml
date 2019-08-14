@@ -12,7 +12,6 @@
         <module>heioky-service-provide</module>
         <module>heioky-service-consume</module>
         <module>heioky-web</module>
-        <module>heioky-config</module>
     </modules>
 
     <dependencies>
