@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wistaria.dao.JunkTypesModelMapper">
+    <resultMap id="BaseResultMap" type="com.wistaria.model.JunkTypesModel">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="category" jdbcType="VARCHAR" property="category"/>
+        <result column="creater" jdbcType="VARCHAR" property="creater"/>
+        <result column="updater" jdbcType="VARCHAR" property="updater"/>
+        <result column="c_time" jdbcType="TIMESTAMP" property="cTime"/>
+        <result column="u_time" jdbcType="TIMESTAMP" property="uTime"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, category, creater, updater, c_time, u_time
+  </sql>
+    <select id="findList" resultMap="BaseResultMap">
+        select * from junk_types;
+    </select>
+
+</mapper>

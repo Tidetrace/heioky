@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/heioky.iml" filepath="$PROJECT_DIR$/heioky.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heioky-common/heioky-common.iml" filepath="$PROJECT_DIR$/heioky-common/heioky-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heioky-service-consume/heioky-service-consume.iml" filepath="$PROJECT_DIR$/heioky-service-consume/heioky-service-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heioky-service-provide/heioky-service-provide.iml" filepath="$PROJECT_DIR$/heioky-service-provide/heioky-service-provide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heioky-web/heioky-web.iml" filepath="$PROJECT_DIR$/heioky-web/heioky-web.iml" />
+    </modules>
+  </component>
+</project>

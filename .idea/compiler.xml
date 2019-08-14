@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="heioky-common" />
+        <module name="heioky-service-consume" />
+        <module name="heioky-service-provide" />
+        <module name="heioky-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="heioky" target="1.8" />
+      <module name="heioky-common" target="1.8" />
+      <module name="heioky-config" target="1.8" />
+      <module name="heioky-service-consume" target="1.8" />
+      <module name="heioky-service-provide" target="1.8" />
+      <module name="heioky-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
